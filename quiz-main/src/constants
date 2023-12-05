@@ -1,0 +1,222 @@
+// QuestionBank.js
+
+const questionBank = [
+  {
+    id: 0,
+    type: "Intro"
+  },
+  {
+    id: 1,
+    question: "What is ReactJS?",
+    options: [
+      "Server-side framework",
+      "User Interface framework",
+      "both a and b",
+      "None of the above",
+    ],
+    type: "MCQs",
+    correctAnswer: "User Interface framework",
+  },
+  {
+    id: 2,
+    question: "Fill in the blank: React is developed and maintained by ________.",
+    type: "FIB",
+    correctAnswer: "Facebook",
+  },
+  {
+    id: 3,
+    question: "What is the purpose of React Router?",
+    options: [
+      "Handling navigation in React applications",
+      "Managing state in React applications",
+      "Styling React components",
+      "None of the above",
+    ],
+    type: "MCQs",
+    correctAnswer: "Handling navigation in React applications",
+  },
+  {
+    id: 4,
+    question: "What is the role of keys in React lists?",
+    type: "FIB",
+    correctAnswer: "Identity",
+  },
+  {
+    id: 5,
+    question: "What does Redux offer in a React application?",
+    options: [
+      "State management",
+      "Routing",
+      "Form handling",
+      "None of the above",
+    ],
+    type: "MCQs",
+    correctAnswer: "State management",
+  },
+  {
+    id: 6,
+    question: "What is the virtual DOM in React?",
+    options: [
+      "A JavaScript file in the project",
+      "A lightweight copy of the actual DOM",
+      "A new version of React library",
+      "None of the above",
+    ],
+    type: "MCQs",
+    correctAnswer: "A lightweight copy of the actual DOM",
+  },
+  {
+    id: 7,
+    question: "What is React's context API used for?",
+    type: "FIB",
+    correctAnswer: "Data",
+  },
+  {
+    id: 8,
+    question: "In which language is React.js written?",
+    options: ["Python", "Java", "C#", "JavaScript"],
+    type: "MCQs",
+    correctAnswer: "JavaScript",
+  },
+  {
+    id: 9,
+    question: "What is the purpose of the useEffect hook in React?",
+    options: [
+      "To perform data fetching in functional components",
+      "To handle events in class components",
+      "To create reusable components",
+      "None of the above",
+    ],
+    type: "MCQs",
+    correctAnswer: "To perform data fetching in functional components",
+  },
+  {
+    id: 10,
+    question: "What is the purpose of the useState hook in React?",
+    type: "FIB",
+    correctAnswer: "State",
+  },
+  {
+    id: 11,
+    question: "What is Babel?",
+    options: [
+      "JavaScript interpreter",
+      "JavaScript transpiler",
+      "JavaScript compiler",
+      "None of the above",
+    ],
+    type: "MCQs",
+    correctAnswer: "JavaScript compiler",
+  },
+  {
+    id: 12,
+    question: "What is the significance of the componentDidCatch method in React?",
+    type: "FIB",
+    correctAnswer: "Error",
+  },
+  {
+    id: 13,
+    question: "Explain the concept of controlled components in React.",
+    type: "FIB",
+    correctAnswer: "Form",
+  },
+  {
+    id: 14,
+    question: "React is a JavaScript library for building user interfaces. (true/false)",
+    options: [
+      "True",
+      "False",
+    ],
+    type: "MCQs",
+    correctAnswer: "True",
+  },
+  {
+    id: 15,
+    question: "Fill in the blank: _____ to pass data to components from outside",
+    options: ["Render with arguments", "setState", "PropTypes", "props"],
+    type: "FIB",
+    correctAnswer: "props",
+  },
+  {
+    id: 16,
+    question: "What is React's forwardRef used for?",
+    options: [
+      "Accessing the ref of the child component in the parent component",
+      "Creating forward references to parent components",
+      "Enabling asynchronous rendering in functional components",
+      "None of the above",
+    ],
+    type: "MCQs",
+    correctAnswer: "Accessing the ref of the child component in the parent component",
+  },
+  {
+    id: 17,
+    question: "______ provide a way to pass data from one component to another. Fill in the blank.",
+    type: "FIB",
+    correctAnswer: "props",
+  },
+  {
+    id: 18,
+    question: "What is JSX in React?",
+    options: [
+      "JavaScript XML",
+      "JavaScript Extended",
+      "JavaScript and XML",
+      "None of the above",
+    ],
+    type: "MCQs",
+    correctAnswer: "JavaScript XML",
+  },
+  {
+    id: 19,
+    question: "How can you optimize performance in React?",
+    options: [
+      "Using PureComponent",
+      "Memoization",
+      "Both A and B",
+      "None of the above",
+    ],
+    type: "MCQs",
+    correctAnswer: "Both A and B",
+  },
+  {
+    id: 20,
+    question: "What is the significance of the componentDidCatch method in React?",
+    type: "FIB",
+    correctAnswer: "Error boundary for handling component errors",
+  },
+  {
+    id: 21,
+    question: "Explain the concept of controlled components in React.",
+    type: "FIB",
+    correctAnswer: "Components where form data is controlled by React state",
+  },
+  {
+    id: 22,
+    question: "What is React's forwardRef used for?",
+    options: [
+      "Accessing the ref of the child component in the parent component",
+      "Creating forward references to parent components",
+      "Enabling asynchronous rendering in functional components",
+      "None of the above",
+    ],
+    type: "MCQs",
+    correctAnswer: "Accessing the ref of the child component in the parent component",
+  },
+  {
+    id: 23,
+    question: "______ provide a way to pass data from one component to another. Fill in the blank.",
+    options: ["Props", "State", "Redux", "Events"],
+    type: "MCQs",
+    correctAnswer: "Props",
+  },
+];
+
+
+export default questionBank;
+
+export const resultInitialState = {
+  score: 0,
+  correctAnswers: 0,
+  wrongAnswers: 0,
+};
